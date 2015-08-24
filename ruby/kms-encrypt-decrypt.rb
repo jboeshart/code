@@ -35,9 +35,20 @@ encrypted = kms.encrypt({
   plaintext: text
   })
 
-# Display encrypted text
-puts "Encrypted text is:"
+# Display raw encrypted text
+puts "Encrypted text raw:"
 puts encrypted.ciphertext_blob
+puts
+
+# Display Base64 encoded text
+puts "Encrypted text Base64 encoded:"
+puts Base64.encode64(encrypted.ciphertext_blob)
+puts
+
+# Display Base64 strict encoded text
+puts "Encrypted text Base64 strict encoded:"
+puts Base64.strict_encode64(encrypted.ciphertext_blob)
+puts
 
 # Write encrypted text to file
 f = File.new(blob_file,"w")
