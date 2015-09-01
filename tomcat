@@ -73,8 +73,11 @@ start() {
  
 status(){
           pid=$(tomcat_pid)
-          if [ -n "$pid" ]; then echo -e "\e[00;32mTomcat is running with pid: $pid\e[00m"
-          else echo -e "\e[00;31mTomcat is not running\e[00m"
+          if [ -n "$pid" ]
+            then echo -e "\e[00;32mTomcat is running with pid: $pid\e[00m"
+          else
+            echo -e "\e[00;31mTomcat is not running\e[00m"
+            return 3
           fi
 }
 
@@ -131,13 +134,14 @@ case $1 in
 	  start
 	;;
 	status)
-		status
+	  status
+	  exit $?
 	;;
 	kill)
-		terminate
+	  terminate
 	;;		
 	*)
-		echo -e $TOMCAT_USAGE
+	  echo -e $TOMCAT_USAGE
 	;;
 esac    
 exit 0
