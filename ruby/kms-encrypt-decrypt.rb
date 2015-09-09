@@ -20,51 +20,52 @@
 # limitations under the License.
 
 require 'aws-sdk-core'
+require 'base64'
+require 'optparse'
 
 key_id = 'arn:aws:kms:us-east-1:012345678901:key/01abc2d3-4e56-78f9-g01h-23ij45klm6n6'
-blob_file = "blob.txt"
-kms = Aws::KMS::Client.new(region:'us-east-1')
+@kms = Aws::KMS::Client.new(region:'us-east-1')
 
-# Get text from user
-puts "Please enter the text you want to encrypt"
-text = gets.chomp
+options = {}
+text = ''
+action = ''
+OptionParser.new do |opts|
+  opts.banner = "Usage: kms-encrypt-decrypt.rb [options]"
+  opts.on('-e STRING', '--encrypt', 'Encrypt STRING, surround with double quotes if there are spaces') { |v| text = v; action = :encrypt }
+  opts.on('-d STRING', '--decrypt', 'Decrypt STRING') { |v| text = v; action = :decrypt }
+end.parse!
 
-# Encrypt entered text
-encrypted = kms.encrypt({
-  key_id: key_id,
-  plaintext: text
-  })
+def encrypt(text_to_encrypt)
+  encrypted = @kms.encrypt({
+    key_id: @key_id,
+    plaintext: text_to_encrypt
+    })
+  puts "Encrypted text raw:"
+  puts encrypted.ciphertext_blob
+  puts
 
-# Display raw encrypted text
-puts "Encrypted text raw:"
-puts encrypted.ciphertext_blob
-puts
+  plain = Base64.encode64(encrypted.ciphertext_blob)
+    puts "Encrypted text in Base64 encoding:"
+  puts plain
+  puts
 
-# Display Base64 encoded text
-puts "Encrypted text Base64 encoded:"
-puts Base64.encode64(encrypted.ciphertext_blob)
-puts
+  plain_strict = Base64.strict_encode64(encrypted.ciphertext_blob)
+    puts "Encrypted text in Base64 strict encoding:"
+  puts plain_strict
+  puts
+end
 
-# Display Base64 strict encoded text
-puts "Encrypted text Base64 strict encoded:"
-puts Base64.strict_encode64(encrypted.ciphertext_blob)
-puts
+def decrypt(text_to_decrypt)
+  decrypted = @kms.decrypt({
+    ciphertext_blob: Base64.strict_decode64(text_to_decrypt)
+    })
+  puts "Here's the decrypted text:"
+  puts decrypted.plaintext
+end
 
-# Write encrypted text to file
-f = File.new(blob_file,"w")
-f.write encrypted.ciphertext_blob
-f.close
-
-# Read encrypted text back in from file
-puts "Reading from file:"
-encrypted_file = File.read(blob_file)
-
-# Decrypt the text in the file
-puts "Now lets decrypt that"
-decrypted = kms.decrypt({
-  ciphertext_blob: encrypted_file
-  })
-  
-# Display the decrypted text
-puts "Here's the decrypted text:"
-puts decrypted.plaintext
+case action
+when :encrypt
+  encrypt(text)
+when :decrypt
+  decrypt(text)
+end
