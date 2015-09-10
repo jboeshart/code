@@ -22,9 +22,8 @@
 require 'aws-sdk-core'
 require 'base64'
 require 'optparse'
-
-key_id = 'arn:aws:kms:us-east-1:012345678901:key/01abc2d3-4e56-78f9-g01h-23ij45klm6n6'
-@kms = Aws::KMS::Client.new(region:'us-east-1')
+@region = 'us-east-1'
+@key_id = 'arn:aws:kms:us-east-1:012345678901:key/01abc2d3-4e56-78f9-g01h-23ij45klm6n7'
 
 options = {}
 text = ''
@@ -33,7 +32,11 @@ OptionParser.new do |opts|
   opts.banner = "Usage: kms-encrypt-decrypt.rb [options]"
   opts.on('-e STRING', '--encrypt', 'Encrypt STRING, surround with double quotes if there are spaces') { |v| text = v; action = :encrypt }
   opts.on('-d STRING', '--decrypt', 'Decrypt STRING') { |v| text = v; action = :decrypt }
+  opts.on('-k KEY', '--key', 'KMS key ID or ARN') { |v| @key_id = v}
+  opts.on('-r REGION', '--region', 'AWS region that the KMS key is located') { |v| @region = v }
 end.parse!
+
+@kms = Aws::KMS::Client.new(region:@region)
 
 def encrypt(text_to_encrypt)
   encrypted = @kms.encrypt({
