@@ -12,7 +12,7 @@
   Log file stored in C:\Windows\Temp\Apply-WindowsUpdates.log
 
 .NOTES
-  Version:        1.0
+  Version:        1.0.0
   Author:         Jason Boeshart, with code sourced from http://blogs.technet.com/b/jamesone/archive/2009/01/27/managing-windows-update-with-powershell.aspx
   Creation Date:  9/24/2015
   Purpose/Change: Initial script creation
@@ -25,7 +25,7 @@
 #----------------------------------------------------------[Declarations]----------------------------------------------------------
 
 #Script Version
-$ScriptVersion = "1.0"
+$ScriptVersion = "1.0.0"
 
 #Log File Info
 $LogPath = "C:\Windows\Temp"
