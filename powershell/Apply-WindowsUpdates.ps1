@@ -75,19 +75,20 @@ Function Add-WindowsUpdate
       $installationResult = $installer.Install()
 
       # Log the results to file
+      $ns=$ip=$s=$swe=$f=$a=0
       Write-Log -severity INFO -string "Installation results:"
       For ($i = 0; $i -lt $updatesToInstall.Count; $i++){
         $result = switch($InstallationResult.GetUpdateResult($i).ResultCode) {
-          0 { "Not Started" }
-          1 { "In Progress" }
-          2 { "Succeeded" }
-          3 { "Succeeded With Errors" }
-          4 { "Failed" }
-          5 { "Aborted" }
+          0 { "Not Started"; $ns++ }
+          1 { "In Progress"; $ip++ }
+          2 { "Succeeded"; $s++ }
+          3 { "Succeeded With Errors"; $swe++ }
+          4 { "Failed"; $f++ }
+          5 { "Aborted"; $a++ }
         }
         Write-Log -severity INFO -string "$($result): $($UpdatesToInstall.Item($i).Title)"
       }
-
+      Write-Log -severity INFO -string "Total: $($updatesToInstall.Count), Succeeded: $($s), Succeeded With Errors: $($swe), Failed: $($f), Aborted: $($a)"
       if ($autoRestart -and $installationResult.rebootRequired) { Restart-Computer -Force }
     }
   }
