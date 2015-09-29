@@ -65,7 +65,7 @@ Function Add-WindowsUpdate
     write-progress -Activity 'Updating' -Status "Downloading $($downloader.Updates.count) updates"
     Write-Log -severity INFO -string "Downloading $($downloader.Updates.count) updates"
     $Result= $downloader.Download()
-    if (($Result.Hresult -eq 0) –and (($result.resultCode –eq 2) -or ($result.resultCode –eq 3)) ) {
+    if (($Result.Hresult -eq 0) -and (($result.resultCode -eq 2) -or ($result.resultCode -eq 3)) ) {
       $updatesToInstall = New-object -com "Microsoft.Update.UpdateColl"
       $Updates | where {$_.isdownloaded} | foreach-Object {$updatesToInstall.Add($_) | out-null }
       $installer = $updateSession.CreateUpdateInstaller()
