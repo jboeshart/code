@@ -18,7 +18,6 @@ filter = ''
 tag = ''
 no_snap = {}
 snap_ages = {}
-instances_no_snap = 0
 
 # Get options from the command line
 options = {}
