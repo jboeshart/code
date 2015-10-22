@@ -20,9 +20,6 @@ no_snap = {}
 snap_ages = {}
 
 # Get options from the command line
-options = {}
-text = ''
-action = ''
 OptionParser.new do |opts|
   opts.banner = "Usage: snapshot-check.rb [options]"
   opts.on('-t STRING', '--tag', 'Tag that you want to filter against') { |v| tag = v }
