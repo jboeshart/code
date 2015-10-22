@@ -27,7 +27,7 @@ action = ''
 OptionParser.new do |opts|
   opts.banner = "Usage: snapshot-check.rb [options]"
   opts.on('-t STRING', '--tag', 'Tag that you want to filter against') { |v| tag = v }
-  opts.on('-f STRING', '--filter', 'Filter to use for the name tag') { |v| filter = v }
+  opts.on('-f STRING', '--filter', 'Filter to use for the tag') { |v| filter = v }
   opts.on('-a STRING', '--age', 'Age in days of the most recent snapshot') { |v| max_age = v }
   opts.on('-r REGION', '--region', 'AWS region to query') { |v| region = v }
 end.parse!
