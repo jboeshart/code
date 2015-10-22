@@ -7,7 +7,6 @@
 #           with a list of both.
 
 require 'aws-sdk'
-# require 'date'
 require 'time'
 require 'time_difference'
 require 'optparse'
