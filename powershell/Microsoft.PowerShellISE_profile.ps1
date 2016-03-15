@@ -1,3 +1,5 @@
+# File location: C:\Users\<username>\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1
+
 # Start AzureAutomationISEAddOn snippet
 # Import-Module AzureAutomationAuthoringToolkit
 # End AzureAutomationISEAddOn snippet
