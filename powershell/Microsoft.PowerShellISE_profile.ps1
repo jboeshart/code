@@ -1,5 +1,5 @@
 # Start AzureAutomationISEAddOn snippet
-Import-Module AzureAutomationAuthoringToolkit
+# Import-Module AzureAutomationAuthoringToolkit
 # End AzureAutomationISEAddOn snippet
 
 # Set up history retention
