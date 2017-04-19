@@ -1,9 +1,9 @@
-**microsoft.aadiam**
+## microsoft.aadiam
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Advisor**
+## Microsoft.Advisor
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 |Microsoft Advisor|Suppressions|Microsoft.Advisor/suppressions/read|Read Suppressions|Gets suppressions|
 |Microsoft Advisor|Suppressions|Microsoft.Advisor/suppressions/delete|Delete Suppression|Deletes suppression|
 
-**Microsoft.AnalysisServices**
+## Microsoft.AnalysisServices
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@
 |Microsoft Analysis Services|servers|Microsoft.AnalysisServices/servers/resume/action|Resume the Analysis Server.|Resumes the Analysis Server.|
 |Microsoft Analysis Services|servers|Microsoft.AnalysisServices/servers/checkNameAvailability/action|Check availability of the Analysis Server name|Checks that given Analysis Server name is valid and not in use.|
 
-**Microsoft.ApiManagement**
+## Microsoft.ApiManagement
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -131,7 +131,7 @@
 |Microsoft API Management|By api report|Microsoft.ApiManagement/service/reports/byApi/read|Get by API report|Get report aggregated by APIs|
 |Microsoft API Management|By product report|Microsoft.ApiManagement/service/reports/byProduct/read|Get by product report|Get report aggregated by products.|
 
-**Microsoft.AppService**
+## Microsoft.AppService
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -156,7 +156,7 @@
 |Microsoft AppService|API App|Microsoft.AppService/apiapps/listKeys/Action|List API App Secrets|Returns API App secrets.|
 |Microsoft AppService|API Definition|Microsoft.AppService/apiapps/apidefinitions/Read|Get API App's API Definition|Returns API App's API definition.|
 
-**Microsoft.Authorization**
+## Microsoft.Authorization
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -182,7 +182,7 @@
 |Microsoft Authorization|Role assignment|Microsoft.Authorization/roleAssignments/write|Create role assignment|Create a role assignment at the specified scope.|
 |Microsoft Authorization|Role assignment|Microsoft.Authorization/roleAssignments/delete|Delete role assignment|Delete a role assignment at the specified scope.|
 
-**Microsoft.Automation**
+## Microsoft.Automation
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -248,22 +248,22 @@
 |Microsoft Automation|Azure Automation Webhook|Microsoft.Automation/automationAccounts/webhooks/delete|Delete an Azure Automation webhook|Deletes an Azure Automation webhook |
 |Microsoft Automation|Azure Automation Webhook|Microsoft.Automation/automationAccounts/webhooks/generateUri/action|Generate a URI for an Azure Automation webhook|Generates a URI for an Azure Automation webhook|
 
-**Microsoft.AzureActiveDirectory**
+## Microsoft.AzureActiveDirectory
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.AzureStack**
+## Microsoft.AzureStack
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Backup**
+## Microsoft.Backup
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Batch**
+## Microsoft.Batch
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -283,13 +283,13 @@
 |Microsoft Batch|Application Packages|Microsoft.Batch/batchAccounts/applications/versions/delete|Delete Application Package|Deletes an application package|
 |Microsoft Batch|Batch Quotas|Microsoft.Batch/locations/quotas/read|Get Batch Quotas|Gets Batch quotas of the specified subscription at the specified Azure region|
 
-**Microsoft.Billing**
+## Microsoft.Billing
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 |Microsoft Billing|Invoices|Microsoft.Billing/invoices/read|List Invoices|Lists available invoices|
 
-**Microsoft.BingMaps**
+## Microsoft.BingMaps
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -301,12 +301,12 @@
 |Marketplace Resource Provider|Marketplace Resource Type|Microsoft.BingMaps/mapApis/listSingleSignOnToken/action|Read Single Sign On Authorization Token|Read Single Sign On Authorization Token For The Resource|
 |Marketplace Resource Provider|Resource type display name.|Microsoft.BingMaps/Operations/read|Operation display name.|Description of the operation.|
 
-**Microsoft.BizTalkServices**
+## Microsoft.BizTalkServices
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Cache**
+## Microsoft.Cache
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -335,7 +335,7 @@
 |Microsoft Cache|Patching schedule of a Redis Cache|Microsoft.Cache/redis/patchSchedules/write|Change Redis Patching Schedule|Modify the patching schedule of a Redis Cache|
 |Microsoft Cache|Patching schedule of a Redis Cache|Microsoft.Cache/redis/patchSchedules/delete|Delete Redis Cache Patch Schedule|Delete the patch schedule of a Redis Cache|
 
-**Microsoft.Cdn**
+## Microsoft.Cdn
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -395,7 +395,7 @@
 |Microsoft.Cdn|EdgeNode|Microsoft.Cdn/edgenodes/write|write||
 |Microsoft.Cdn|EdgeNode|Microsoft.Cdn/edgenodes/delete|delete||
 
-**Microsoft.CertificateRegistration**
+## Microsoft.CertificateRegistration
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -417,7 +417,7 @@
 |Microsoft Certificates|Certificate|Microsoft.CertificateRegistration/certificateOrders/certificates/Delete|Delete Certificate|Delete an existing certificate|
 |Microsoft Certificates|Certificate|Microsoft.CertificateRegistration/certificateOrders/certificates/Read|Get Certificates|Get the list of certificates|
 
-**Microsoft.ClassicCompute**
+## Microsoft.ClassicCompute
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -499,7 +499,7 @@
 |Microsoft ClassicCompute|Virtual Machine Associated Network Security Group|Microsoft.ClassicCompute/virtualMachines/associatedNetworkSecurityGroups/delete|Delete Virtual Machine Associated Network Security Group|Deletes the network security group associated with the virtual machine.|
 |Microsoft ClassicCompute|Virtual Machines Associated Network Security Groups Operation Status|Microsoft.ClassicCompute/virtualMachines/associatedNetworkSecurityGroups/operationStatuses/read|Get the Virtual Machines Associated Network Security Groups Operation Status|Reads the operation status for the virtual machines associated network security groups.|
 
-**Microsoft.ClassicNetwork**
+## Microsoft.ClassicNetwork
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -556,7 +556,7 @@
 |Microsoft ClassicNetwork|Network Security Group Security Rules Operation Status|Microsoft.ClassicNetwork/networkSecurityGroups/securityRules/operationStatuses/read|Get the Network Security Group Security Rules Operation Status|Reads the operation status for the network security group security rules.|
 |Microsoft ClassicNetwork|Quota|Microsoft.ClassicNetwork/quotas/read|Get Subscription Quota|Get the quota for the subscription.|
 
-**Microsoft.ClassicStorage**
+## Microsoft.ClassicStorage
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -588,12 +588,12 @@
 |Microsoft ClassicStorage|Operating System Image|Microsoft.ClassicStorage/osImages/read|Get Operating System Image|Returns the operating system image.|
 |Microsoft ClassicStorage|Quota|Microsoft.ClassicStorage/quotas/read|Get Subscription Quota|Get the quota for the subscription.|
 
-**Microsoft.ClassicInfrastructureMigrate**
+## Microsoft.ClassicInfrastructureMigrate
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.CognitiveServices**
+## Microsoft.CognitiveServices
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -606,14 +606,14 @@
 |Microsoft Cognitive Services|Cognitive Services API Account|Microsoft.CognitiveServices/accounts/usages/read|Get the quota usage for an existing resource|Get the quota usage for an existing resource.|
 |Microsoft Cognitive Services|Resource type display name.|Microsoft.CognitiveServices/Operations/read|Operation display name.|Description of the operation.|
 
-**Microsoft.Commerce**
+## Microsoft.Commerce
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 |Microsoft Commerce|RateCard|Microsoft.Commerce/RateCard/read|Read Rate Card|Returns offer data, resource/meter metadata and rates for the given subscription.|
 |Microsoft Commerce|Usage Aggregates|Microsoft.Commerce/UsageAggregates/read|Read Usage Aggregates|Retrieves Microsoft Azure’s consumption  by a subscription. The result contains aggregates usage data, subscription and resource related information, on a particular time range.|
 
-**Microsoft.Compute**
+## Microsoft.Compute
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -679,12 +679,12 @@
 |Microsoft Compute|Usage Metrics|Microsoft.Compute/locations/usages/read|Get Usage Metrics|Gets service limits and current usage quantities for the subscription's compute resources in a location|
 |Microsoft Compute|Operation|Microsoft.Compute/locations/operations/read|Get Operation|Gets the status of an asynchronous operation|
 
-**microsoft.consumption**
+## microsoft.consumption
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.ContainerRegistry**
+## Microsoft.ContainerRegistry
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -696,7 +696,7 @@
 |Microsoft ContainerRegistry|Registries|Microsoft.ContainerRegistry/registries/listCredentials/action|List container registry login credentials|Lists the login credentials for the specified container registry.|
 |Microsoft ContainerRegistry|Registries|Microsoft.ContainerRegistry/registries/regenerateCredential/action|Regenerate container registry login credentials|Regenerates the login credentials for the specified container registry.|
 
-**Microsoft.ContainerService**
+## Microsoft.ContainerService
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -706,7 +706,7 @@
 |Container Service|Container Services|Microsoft.ContainerService/containerServices/resourceGroups/ContainerServiceName/write|Put/Update Container Service|Puts or Updates the specified Container Service|
 |Container Service|Container Services|Microsoft.ContainerService/containerServices/resourceGroups/ContainerServiceName/delete|Delete Container Services|Deletes the specified Container Service|
 
-**Microsoft.ContentModerator**
+## Microsoft.ContentModerator
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -720,7 +720,7 @@
 |Microsoft.ContentModerator|accounts|Microsoft.ContentModerator/applications/listSingleSignOnToken/action|List Single Sign On Tokens|Read Single Sign On Tokens|
 |Microsoft.ContentModerator|operations|Microsoft.ContentModerator/operations/read|List Operations|read operations|
 
-**Microsoft.CustomerInsights**
+## Microsoft.CustomerInsights
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -756,7 +756,7 @@
 |Microsoft Azure Customer Insights|Azure Customer Insights Connector Mappings|Microsoft.CustomerInsights/hubs/connectors/mappings/write|Create or Update Azure Customer Insights Connector Mapping|Create or Update any Azure Customer Insights Connector Mapping|
 |Microsoft Azure Customer Insights|Azure Customer Insights Connector Mappings|Microsoft.CustomerInsights/hubs/connectors/mappings/delete|Delete Azure Customer Insights App View|Delete any Azure Customer Insights Connector Mapping|
 
-**Microsoft.DataCatalog**
+## Microsoft.DataCatalog
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -765,7 +765,7 @@
 |Microsoft Data Catalog|Catalog|Microsoft.DataCatalog/catalogs/write|Create Or Update Catalog|Creates catalog or updates the tags and properties for the catalog.|
 |Microsoft Data Catalog|Catalog|Microsoft.DataCatalog/catalogs/delete|Delete Catalog|Deletes the catalog.|
 
-**Microsoft.DataFactory**
+## Microsoft.DataFactory
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -785,7 +785,7 @@
 |Microsoft Data Factory|Table|Microsoft.DataFactory/datafactories/{resourceTypeName:regex(^(tables|datasets)$)}/delete|Delete Table|Deletes Table.|
 |Microsoft Data Factory|Table|Microsoft.DataFactory/datafactories/{resourceTypeName:regex(^(tables|datasets)$)}/write|Create or Update any Table.|Create or Update Table|
 
-**Microsoft.DataLakeAnalytics**
+## Microsoft.DataLakeAnalytics
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -804,7 +804,7 @@
 |Microsoft DataLakeAnalytics|DataLakeStore Account|Microsoft.DataLakeAnalytics/accounts/dataLakeStoreAccounts/write|Link DataLakeStore Account|Link a DataLakeStore account to the DataLakeAnalytics account.|
 |Microsoft DataLakeAnalytics|DataLakeStore Account|Microsoft.DataLakeAnalytics/accounts/dataLakeStoreAccounts/delete|Unlink DataLakeStore Account|Unlink a DataLakeStore account from the DataLakeAnalytics account.|
 
-**Microsoft.DataLakeStore**
+## Microsoft.DataLakeStore
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -818,7 +818,7 @@
 |Microsoft DataLakeStore|Trusted IdProvider|Microsoft.DataLakeStore/accounts/trustedIdProviders/write|Add Trusted Identity Provider|Create or update a trusted identity provider.|
 |Microsoft DataLakeStore|Trusted IdProvider|Microsoft.DataLakeStore/accounts/trustedIdProviders/delete|Delete Trusted Identity Provider|Delete a trusted identity provider.|
 
-**Microsoft.Devices**
+## Microsoft.Devices
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -847,7 +847,7 @@
 |Microsoft Devices|IotHubs|Microsoft.Devices/iotHubs/jobs/Read|Get the Job(s) on IotHub|Get Job(s) details submitted on given IotHub|
 |Microsoft Devices|IotHubs|Microsoft.Devices/iotHubs/routingEndpointsHealth/Read|Get Endpoint Health|Gets the health of all routing Endpoints for an IotHub|
 
-**Microsoft.DevTestLab**
+## Microsoft.DevTestLab
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -929,7 +929,7 @@
 |Microsoft DevTest Labs|schedules|Microsoft.DevTestLab/schedules/Retarget/action|Retarget schedule.|Updates a schedule's target resource Id.|
 |Microsoft DevTest Labs|operations|Microsoft.DevTestLab/locations/operations/read|Read operations.|Read operations.|
 
-**Microsoft.DocumentDB**
+## Microsoft.DocumentDB
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -953,7 +953,7 @@
 |Microsoft DocumentDb|Database usages|Microsoft.DocumentDB/databaseAccounts/databases/usages/read|Read database usages|Reads the database usages.|
 |Microsoft DocumentDb|Database Account readonly keys|Microsoft.DocumentDB/databaseAccounts/readonlykeys/read|Read database account readonly keys|Reads the database account readonly keys.|
 
-**Microsoft.DomainRegistration**
+## Microsoft.DomainRegistration
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -967,7 +967,7 @@
 |Microsoft Domains|Domain|Microsoft.DomainRegistration/domains/Delete|Delete Domain|Delete an existing domain.|
 |Microsoft Domains|Domain operation|Microsoft.DomainRegistration/domains/operationresults/Read|Get Domain Operation|Get a domain operation|
 
-**Microsoft.DynamicsLcs**
+## Microsoft.DynamicsLcs
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -979,7 +979,7 @@
 |Microsoft Dynamics Lifecycle Services (LCS)|Microsoft Dynamics project connectors|Microsoft.DynamicsLcs/lcsprojects/connectors/read|Read Microsoft Dynamics project connectors|Read connectors that belong to a Microsoft Dynamics Lifecycle Services project|
 |Microsoft Dynamics Lifecycle Services (LCS)|Microsoft Dynamics project connectors|Microsoft.DynamicsLcs/lcsprojects/connectors/write|Create and update  Microsoft Dynamics project connectors|Create and update connectors that belong to a Microsoft Dynamics Lifecycle Services project|
 
-**Microsoft.EventHub**
+## Microsoft.EventHub
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1009,7 +1009,7 @@
 |Microsoft Azure EventHub|Namespace diagnostic settings|Microsoft.EventHub/namespaces/diagnosticSettings/write|Create or Update Namespace diagnostic settings|Get list of Namespace diagnostic settings Resource Descriptions|
 |Microsoft Azure EventHub|Namespace logs|Microsoft.EventHub/namespaces/logDefinitions/read|Get Namespace logs|Get list of Namespace logs Resource Descriptions|
 
-**Microsoft.HDInsight**
+## Microsoft.HDInsight
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1023,7 +1023,7 @@
 |Microsoft.HDInsight|HDInsight Subscription Capabilities|Microsoft.HDInsight/locations/capabilities/read|Get Subscription Capabilities|Get Subscription Capabilities|
 |Microsoft.HDInsight|HDInsight Cluster|Microsoft.HDInsight/locations/checkNameAvailability/read|Check Name Availability|Check Name Availability|
 
-**Microsoft.ImportExport**
+## Microsoft.ImportExport
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1034,7 +1034,7 @@
 |Microsoft Import/Export|Jobs|Microsoft.ImportExport/jobs/delete|Delete Job|Deletes an existing job.|
 |Microsoft Import/Export|Locations|Microsoft.ImportExport/locations/read|Get or List Locations|Gets the properties for the specified location or returns the list of locations.|
 
-**microsoft.insights**
+## microsoft.insights
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1068,7 +1068,7 @@
 |Microsoft Monitoring Insights|Extended Diagnostic settings|Microsoft.Insights/ExtendedDiagnosticSettings/Delete|Extended Diagnostic settings delete|Deleting extended diagnostic settings configuration|
 |Microsoft Monitoring Insights|Extended Diagnostic settings|Microsoft.Insights/ExtendedDiagnosticSettings/Read|Extended Diagnostic settings read|Reading a extended diagnostic settings configuration|
 
-**Microsoft.KeyVault**
+## Microsoft.KeyVault
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1086,7 +1086,7 @@
 |Microsoft Key Vault|Soft Deleted Key Vault|Microsoft.KeyVault/locations/deletedVaults/read|View Soft Deleted Key Vault|View the properties of a soft deleted key vault|
 |Microsoft Key Vault|Soft Deleted Key Vault|Microsoft.KeyVault/locations/deletedVaults/purge/action|Purge Soft Deleted Key Vault|Purge a soft deleted key vault|
 
-**Microsoft.Logic**
+## Microsoft.Logic
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1119,7 +1119,7 @@
 |Microsoft Logic|Access Key|Microsoft.Logic/workflows/accessKeys/regenerate/action|Regenerate Access Key|Regenerates the access key secrets.|
 |Microsoft Logic|Workflow|Microsoft.Logic/locations/workflows/validate/action|Validate Workflow|Validates the workflow.|
 
-**Microsoft.MachineLearning**
+## Microsoft.MachineLearning
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1140,7 +1140,7 @@
 |Microsoft Machine Learning Web Services Management|Machine Learning Web Service|Microsoft.MachineLearning/webServices/write|Write Machine Learning Web Service|Create or Update any Machine Learning Web Service|
 |Microsoft Machine Learning Web Services Management|Machine Learning Web Service|Microsoft.MachineLearning/webServices/delete|Delete Machine Learning Web Service|Delete any Machine Learning Web Service|
 
-**Microsoft.MarketplaceOrdering**
+## Microsoft.MarketplaceOrdering
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1148,7 +1148,7 @@
 |Microsoft Marketplace Ordering|Agreement|Microsoft.MarketplaceOrdering/agreements/offers/plans/sign/action|Sign Agreement|Sign an agreement for a given marketplace item|
 |Microsoft Marketplace Ordering|Agreement|Microsoft.MarketplaceOrdering/agreements/offers/plans/cancel/action|Cancel Agreement|Cancel an agreement for a given marketplace item|
 
-**Microsoft.Media**
+## Microsoft.Media
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1159,7 +1159,7 @@
 |Microsoft.Media|MediaService|Microsoft.Media/mediaservices/listKeys/action|listKeys||
 |Microsoft.Media|MediaService|Microsoft.Media/mediaservices/syncStorageKeys/action|syncStorageKeys||
 
-**Microsoft.Network**
+## Microsoft.Network
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1322,7 +1322,7 @@
 |Microsoft Network|Usage Metric|Microsoft.Network/locations/usages/read|Get Usage Metric|Gets the resources usage metrics|
 |Microsoft Network|Operation|Microsoft.Network/locations/operations/read|Get Operation Resource|Gets operation resource that represents status of an asynchronous operation|
 
-**Microsoft.NotificationHubs**
+## Microsoft.NotificationHubs
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1351,7 +1351,7 @@
 |Microsoft Azure Notification Hub|NotificationHub Authorization Rule|Microsoft.NotificationHubs/Namespaces/NotificationHubs/authorizationRules/listkeys/action|Get Notification Hub Listkeys|Get the Connection String to the Notification Hub|
 |Microsoft Azure Notification Hub|NotificationHub Authorization Rule|Microsoft.NotificationHubs/Namespaces/NotificationHubs/authorizationRules/regenerateKeys/action|Notification Hub Authorization Rule Regenerate Keys|Notification Hub Authorization Rule Regenerate Primary/SecondaryKey, Specify the Key that needs to be regenerated|
 
-**Microsoft.OperationalInsights**
+## Microsoft.OperationalInsights
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1383,7 +1383,7 @@
 |Microsoft Operational Insights|Configuration Scope|Microsoft.OperationalInsights/workspaces/configurationScopes/write|Set Configuration Scope|Set Configuration Scope|
 |Microsoft Operational Insights|Configuration Scope|Microsoft.OperationalInsights/workspaces/configurationScopes/delete|Delete Configuration Scope|Delete Configuration Scope|
 
-**Microsoft.OperationsManagement**
+## Microsoft.OperationsManagement
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1392,17 +1392,17 @@
 |Microsoft Operations Management|Solution|Microsoft.OperationsManagement/solutions/read|Get existing OMS solution|Get exiting OMS solution|
 |Microsoft Operations Management|Solution|Microsoft.OperationsManagement/solutions/delete|Delete existing OMS solution|Delete existing OMS solution|
 
-**Microsoft.Portal**
+## Microsoft.Portal
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.PowerBI**
+## Microsoft.PowerBI
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.RecoveryServices**
+## Microsoft.RecoveryServices
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1529,7 +1529,7 @@
 |Microsoft Recovery Services|locations/allocateStamp|Microsoft.RecoveryServices/locations/allocateStamp/action|Allocated Stamp Action|AllocateStamp is internal operation used by service|
 |Microsoft Recovery Services|locations/allocatedStamp|Microsoft.RecoveryServices/locations/allocatedStamp/read|Get Allocated Stamp|GetAllocatedStamp is internal operation used by service|
 
-**Microsoft.Relay**
+## Microsoft.Relay
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1554,14 +1554,14 @@
 |Microsoft Azure Relay|WcfRelay AuthorizationRules|Microsoft.Relay/namespaces/WcfRelays/authorizationRules/delete|Delete WcfRelay Authorization Rules|Operation to delete WcfRelay Authorization Rules|
 |Microsoft Azure Relay|WcfRelay AuthorizationRules|Microsoft.Relay/namespaces/WcfRelays/authorizationRules/listkeys/action|List WcfRelay keys|Get the Connection String to WcfRelay|
 
-**Microsoft.ResourceHealth**
+## Microsoft.ResourceHealth
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 |Microsoft ResourceHealth|Availability Status|Microsoft.ResourceHealth/AvailabilityStatuses/read|Get Availability Statuses|Gets the availability statuses for all resources in the specified scope|
 |Microsoft ResourceHealth|Availability Status|Microsoft.ResourceHealth/AvailabilityStatuses/current/read|Get Availability Status|Gets the availability status for the specified resource|
 
-**Microsoft.Scheduler**
+## Microsoft.Scheduler
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1577,7 +1577,7 @@
 |Microsoft Scheduler|Job|Microsoft.Scheduler/jobcollections/jobs/generateLogicAppDefinition/action|Generate Logic App definition|Generates Logic App definition based on a Scheduler Job.|
 |Microsoft Scheduler|Job History|Microsoft.Scheduler/jobcollections/jobs/jobhistories/read|Get Job History|Gets job history.|
 
-**Microsoft.Search**
+## Microsoft.Search
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1594,7 +1594,7 @@
 |Microsoft Search|API Keys|Microsoft.Search/searchServices/queryKey/read|Get Query Key|Reads the query keys.|
 |Microsoft Search|API Keys|Microsoft.Search/searchServices/queryKey/delete|Delete Query Key|Deletes the query key.|
 
-**Microsoft.Security**
+## Microsoft.Security
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1617,7 +1617,7 @@
 |Microsoft Security|App Whitelistings|Microsoft.Security/applicationWhitelistings/read|Get App Whitelisting|Gets the application whitelistings|
 |Microsoft Security|App Whitelistings|Microsoft.Security/applicationWhitelistings/write|Create or Update App Whitelisting|Creates a new application whitelisting or updates an existing one|
 
-**Microsoft.ServerManagement**
+## Microsoft.ServerManagement
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1634,7 +1634,7 @@
 |Remote Server Management Tools|Sessions|Microsoft.ServerManagement/sessions/read|Get session|Gets a session|
 |Remote Server Management Tools|Sessions|Microsoft.ServerManagement/sessions/delete|Deletes session|Deletes a sesssion|
 
-**Microsoft.ServiceBus**
+## Microsoft.ServiceBus
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1675,17 +1675,17 @@
 |Microsoft Azure ServiceBus|Rule|Microsoft.ServiceBus/namespaces/topics/subscriptions/rules/read|Get Rule|Get list of Rule Resource Descriptions|
 |Microsoft Azure ServiceBus|Rule|Microsoft.ServiceBus/namespaces/topics/subscriptions/rules/Delete|Delete Rule|Operation to delete Rule Resource|
 
-**Microsoft.ServiceFabric**
+## Microsoft.ServiceFabric
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.SiteRecovery**
+## Microsoft.SiteRecovery
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Sql**
+## Microsoft.Sql
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1800,7 +1800,7 @@
 |Microsoft SQL Database|Database Import/Export Operation Result|Microsoft.Sql/servers/databases/importExportOperationResults/read|Get details about database import or export operation on the server|Return details about database import or export operation from DacPac located in storage account|
 |Microsoft SQL Database|Server Database Import Operation Result|Microsoft.Sql/servers/importExportOperationResults/read|Get details about database import operation on the server|Return the list with details for database import operations from storage account on a given server|
 
-**Microsoft.Storage**
+## Microsoft.Storage
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1819,7 +1819,7 @@
 |Microsoft Storage|Operations|Microsoft.Storage/operations/read|Poll Asynchronous Operation|Polls the status of an asynchronous operation.|
 |Microsoft Storage|Location|Microsoft.Storage/locations/deleteVirtualNetworkOrSubnets/action|Delete virtual network or subnets notifications|Notifies Microsoft.Storage that virtual network or subnet is being deleted|
 
-**Microsoft.StorSimple**
+## Microsoft.StorSimple
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1951,7 +1951,7 @@
 |Microsoft StorSimple Device Manager|Metrics Definitions|Microsoft.StorSimple/managers/metricsDefinitions/read|List Metrics Definitions|Lists or gets the Metrics Definitions|
 |Microsoft StorSimple Device Manager|Encryption Settings|Microsoft.StorSimple/managers/encryptionSettings/read|List Encryption Settings|Lists or gets the Encryption Settings|
 
-**Microsoft.StreamAnalytics**
+## Microsoft.StreamAnalytics
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -1974,12 +1974,12 @@
 |Microsoft Azure Stream Analytics|Stream Analytics Job Output|Microsoft.StreamAnalytics/streamingjobs/outputs/Write|Write Stream Analytics Job Output|Write Stream Analytics Job Output|
 |Microsoft Azure Stream Analytics|Stream Analytics Job Output|Microsoft.StreamAnalytics/streamingjobs/outputs/Delete|Delete Stream Analytics Job Output|Delete Stream Analytics Job Output|
 
-**microsoft.visualstudio**
+## microsoft.visualstudio
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
 
-**Microsoft.Web**
+## Microsoft.Web
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -2235,7 +2235,7 @@
 |Microsoft Web Apps|Locations Connection Gateway Installations|microsoft.web/locations/connectiongatewayinstallations/read|Get Locations Connection Gateway Installations|Get Locations Connection Gateway Installations.|
 |Microsoft Web Apps|Site Name|Microsoft.Web/listSitesAssignedToHostName/Read|Get sites assigned to hostname|Get names of sites assigned to hostname.|
 
-**Microsoft.ADHybridHealthService**
+## Microsoft.ADHybridHealthService
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -2253,7 +2253,7 @@
 |Microsoft ADHybridHealthService|Alert|Microsoft.ADHybridHealthService/services/alerts/read|Reads the service alerts|Reads the alerts for a service.|
 |Microsoft ADHybridHealthService|Alert|Microsoft.ADHybridHealthService/services/alerts/read|Reads the service alerts|Reads the alerts for a service.|
 
-**Microsoft.Features**
+## Microsoft.Features
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -2261,7 +2261,7 @@
 |Microsoft Feature|Feature|Microsoft.Features/providers/features/register/action|Register Provider Feature|Registers the feature for a subscription in a given resource provider.|
 |Microsoft Feature|Feature|Microsoft.Features/features/read|Get Feature|Gets the features of a subscription.|
 
-**Microsoft.Resources**
+## Microsoft.Resources
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
@@ -2300,7 +2300,7 @@
 |Microsoft Resources|Deployment|Microsoft.Resources/deployments/validate/action|Validate Deployment|Validates an deployment.|
 |Microsoft Resources|Deployment Operation|Microsoft.Resources/deployments/operations/read|Get Deployment Operation|Gets or lists deployment operations.|
 
-**microsoft.support**
+## microsoft.support
 
 |Provider Namespace |Resource Name | Operation | Operation Name | Description |
 |---|---|---|---|---|
