@@ -1,3 +1,4 @@
+login-azurermaccount
 $subscriptions = get-azurermsubscription
 foreach ($sub in $subscriptions) {
     Set-AzureRmContext -SubscriptionName $sub.Name
